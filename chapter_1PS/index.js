@@ -1,62 +1,34 @@
 //Q1
-//let age=prompt("enter your age :")
-/*if(age>10 && age<20){
-  console.log("age lies between 10 and 20")
-}else{
-   console.log("age doesn't lie between 10 and 20")
-}*/
+let s="Bintee"
+console.log(typeof(s))
+let n=50
+console.log(typeof(n))
+s=s+n
+console.log(s)
 //Q2
-/*
-switch(age){
-  case "11":
-    console.log("age lies between 10 and 20")
-    break;
-  case "12":
-    console.log("age lies between 10 and  20")
-    break;
-  case "13":
-    console.log("age lies between 10 and  20")
-    break;
-  case "14":
-    console.log("age lies between 10 and  20")
-    break;
-  case "15":
-    console.log("age lies between 10 and  20")
-    break;
-  case "16":
-    console.log("age lies between 10 and  20")
-    break;
-  case "17":
-    console.log("age lies between 10 and 20")
-    break;
-  case "18":
-    console.log("age lies between 10 and  20")
-    break;
-  case "19":
-    console.log("age lies between 10 and 20")
-    break;
-  default:
-    console.log("age doesn't lie between 10 and  20")
-}
-*/
+console.log(typeof(s))
 //Q3
-/*
-let n=parseInt(prompt("enter a number"))
-if(n%2==0 && n%3==0){
-  console.log("n divisible by 2 and 3")
-}else{
-  console.log("n is not divisible by 2 and 3")
+const result={
+  "Rahul":87,
+  "Kriti":92,
+  "Suresh":74
+  
 }
-*/
+result["Kriti"]=56
+console.log(result["Kriti"])
 //Q4
-/*
-let n=parseInt(prompt("enter a number"))
-if(n%2==0 || n%3==0){
-  console.log("n divisible by 2 or 3")
-}else{
-  console.log("n is not divisible by 2 and 3")
+result["Biplob"]=92
+for(key in result){
+  console.log(key,result[key])
 }
-*/
 //Q5
-let age=parseInt(prompt("Enter your age :"))
-age<18 ? console.log("You can not drive") : console.log("You can drive")
+const dictionary={
+  "mendicant":"a pauper who lives by begging",
+  "vitiate":"make imperfect",
+  "hoary":"having gray or white hair as with age",
+  "odium":"hate coupled with disgust",
+  "grandiloquent":"lofty in style"
+}
+for(key in dictionary){
+  console.log(key,":",dictionary[key])
+}
